@@ -1,0 +1,59 @@
+{
+  "id": "2339479",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "测试项目
+",
+  "glyphs": [
+    {
+      "icon_id": "17280482",
+      "name": "菜单",
+      "font_class": "menu",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "8802622",
+      "name": "生成报告",
+      "font_class": "shengchengbaogao",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "2218",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3823953",
+      "name": "上传",
+      "font_class": "shangchuan1",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "8763665",
+      "name": "下载",
+      "font_class": "xiazai1",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "14996468",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "5643536",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.foodstuff.dao.foodstuffKitchenDao">
+    <resultMap id="kitchenMap" type="com.example.foodstuff.pojo.foodstuffKitchenModel">
+        <result column="kitchen_id"   property="kitchenId"/>
+        <result column="kitchen_title"   property="kitchenTitle"/>
+        <result column="kitchen_info"   property="kitchenName"/>
+        <result column="kitchen_image"   property="kitchenImage"/>
+        <result column="kitchen_link"   property="kitchenLink"/>
+        <result column="user_id"   property="userId"/>
+        <result column="user_name"   property="userName"/>
+        <result column="issue_date"   property="issueDate"/>
+    </resultMap>
+    <select id="queryKitchen" resultMap="kitchenMap">
+            select * from  foodstuff_kitchen
+    </select>
+</mapper>
